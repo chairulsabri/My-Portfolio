@@ -1,0 +1,78 @@
+
+html{
+	position: relative;
+
+}
+body{
+	margin-bottom: 120px; 
+	margin-top: 30px;
+}
+
+.jumbotron {
+	height: 450px;
+	background-image: url('../img/meja3.jpg'); 
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0 -100px;
+	color: #eaeaea;
+	overflow:hidden;
+}
+
+.jumbotron img{
+	width: 200px;
+
+	border: 5px solid #eaeaea;
+	box-shadow-shadow: 1px 1px 10px rgba(0,0,0,0,5);
+}
+  
+
+.jumbotron h1, .jumbotron p {
+
+	text-shadow: 1px 1px 10px rgba(0,0,0,0,5);
+ }
+
+ hr {
+	width: 250px;
+	border-top: 3px solid #999;
+}
+
+section{
+	min-height: 600px;
+}
+
+.portfolio{
+	background-color: #aea;
+
+}
+
+.contact{
+	min-height: 800px;
+}
+
+.Team{
+	background-image: url('../img/meja2.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0 -100px;
+	min-height: 300px;
+	background-color: #ffa;
+}
+
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%
+	height: 120px;
+	background-color: #333;
+	padding-top: 30px;
+
+}
+footer p{
+	color: #aaa;
+	font-size: 0.9em;
+}
+
+footer p i {
+	color: salmon;
+}
